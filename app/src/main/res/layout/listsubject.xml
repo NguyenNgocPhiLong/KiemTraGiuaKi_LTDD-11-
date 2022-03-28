@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="200dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextViewSubjectTitle"
+            android:textColor="@color/black"
+
+            android:textSize="20sp"
+            android:text="TÊN KHÓA HỌC"></TextView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Số tín chỉ: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:id="@+id/TextViewvCredit"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/subjectinformation"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_baseline_subject_24"
+        tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/subjectinupdate"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_baseline_update_24"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/subjectindelete"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_baseline_delete_forever_24"
+        tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+</LinearLayout>

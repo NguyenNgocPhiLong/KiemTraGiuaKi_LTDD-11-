@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".lophoc.ActivitySubjectlnformation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem chi tiết khóa học"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        android:textColor="#F00"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
+        ></TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" Tên Khóa Học : "
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:text="Tên khóa học"
+            android:textSize="20dp"
+            android:id="@+id/txtSubjectTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" Số tín chỉ : "
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:text="  3 "
+            android:textSize="20dp"
+
+            android:id="@+id/txtSubjectCredit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" Lịch Học : "
+
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:text="Thời gian"
+            android:textSize="20dp"
+            android:id="@+id/txtSubjectTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" Lịch Thi : "
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:text="khong"
+            android:textSize="20dp"
+            android:id="@+id/txtSubjectPlace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+</LinearLayout>

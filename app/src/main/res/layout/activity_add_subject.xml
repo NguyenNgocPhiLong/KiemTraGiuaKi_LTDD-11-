@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".lophoc.ActivityAddSubject">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textColor="#F44336"
+        android:text="Thêm Khóa Học"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:text=""
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/EditTextSubjectTitle"
+        android:hint="Tên Khóa Học"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        android:text=""
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/EditTextSubjectCredit"
+        android:hint="Số tín chỉ"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/EditTextSubjectTime"
+        android:hint="Lịch Học"
+        android:textColorHint="@color/black"
+        android:text=""
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/EditTextSubjectPlace"
+        android:hint="Lịch Thi:dd-MM-yyyy"
+        android:layout_width="300dp"
+        android:textColorHint="@color/black"
+        android:text=""
+        android:textColor="@color/black"
+        android:layout_height="60dp"></EditText>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/buttonAddSubject"
+        android:text="Thêm"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

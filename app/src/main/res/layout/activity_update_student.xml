@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dangki.ActivityUpdateStudent">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textColor="#F44336"
+        android:text=" Cập Nhật\nĐăng kí Sinh Viên"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:text=""
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/EditTextStudentNameUpdate"
+        android:hint="Tên Sinh Viên"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Giới Tính"
+        android:layout_gravity="center"></TextView>
+
+    <RadioGroup
+        android:textColorHint="@color/black"
+        android:text=""
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="70dp">
+
+        <RadioButton
+            android:id="@+id/radiobuttonMaleUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Nam"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/black"
+            android:text="Nữ"
+            android:id="@+id/radiobuttonFeMaleUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:text=""
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/EditTextStudentCodeUpdate"
+        android:hint="mã sinh viên"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:textColorHint="@color/black"
+        android:text=""
+        android:textColor="@color/black"
+        android:inputType="datetime"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/EditTextStudentBirthdayUpdate"
+        android:hint="Ngày sinh"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/buttonupdateStudent"
+        android:text="Sửa"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
